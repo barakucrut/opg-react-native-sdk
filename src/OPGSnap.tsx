@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Modal, View, TouchableOpacity, StyleSheet, Text } from 'react-native';
 import { WebView } from 'react-native-webview';
 
@@ -19,7 +19,7 @@ export const OPGSnap = ({
 }: Props) => {
   const [visible, setVisible] = useState(true);
 
-  const paymentUrl = `http://43.157.203.153`; // nanti: /snap/${opgToken}
+  const paymentUrl = `http://43.157.203.153/${opgToken}`; // nanti: /snap/${opgToken}
 
   const closeModal = () => {
     setVisible(false);
