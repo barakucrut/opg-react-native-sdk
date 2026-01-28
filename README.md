@@ -75,18 +75,6 @@ export default function App() {
 - SDK tidak menangani networking backend
 - Disarankan memverifikasi status pembayaran di backend
 
----
-
-## Contributing
-
-Kontribusi sangat terbuka 🙌
-
-- [Development workflow](CONTRIBUTING.md#development-workflow)
-- [Sending a pull request](CONTRIBUTING.md#sending-a-pull-request)
-- [Code of conduct](CODE_OF_CONDUCT.md)
-
----
-
 ## License
 
 MIT © Ojire

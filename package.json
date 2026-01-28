@@ -1,5 +1,5 @@
 {
-  "name": "opg-react-native-sdk",
+  "name": "@ojire/opg-sdk-react-native",
   "version": "0.1.0",
   "description": "SDK for Ojire Payment Gateway",
   "main": "./lib/module/index.js",
